@@ -3,6 +3,14 @@
     <title>Hello world</title>
   </head>
   <body>
-    Simple flask app
+    <div id="text1">Simple flask app</div>
+    <button onclick="changetext()">Change text</button>
   </body>
+
+  <script>
+    function changetext() {
+      let btn = document.querySelector("#text1");
+      btn.innerHTML = "Simplest flask app by lakshya";
+    }
+  </script>
 </html>
